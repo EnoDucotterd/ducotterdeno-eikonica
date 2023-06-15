@@ -1,0 +1,19 @@
+.one-article {
+  width: 35%;
+  font-size: 17px;
+  letter-spacing: 1.73px;
+  margin: 8%;
+}
+
+.one-images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 80%;
+}
+
+.one-img {
+  margin: 3vh;
+  width: 26vh;
+}

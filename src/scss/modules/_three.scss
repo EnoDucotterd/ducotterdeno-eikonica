@@ -1,9 +1,12 @@
+.three {
+  display: flex;
+}
 .three-img {
-  width: 100vh;
+  width: 1073px;
 }
 
 .three-article {
-  width: 21%;
+  width: 306px;
   font-size: 17px;
   letter-spacing: 1.73px;
   margin-left: 8%;
@@ -11,11 +14,11 @@
 
 .three-discover {
   position: relative;
-  height: 47vh;
+  width: 756px;
 }
 
 .three-button {
   position: absolute;
-  right: 5%;
-  top: 95%;
+  right: 45px;
+  top: 320px;
 }

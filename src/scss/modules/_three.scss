@@ -1,5 +1,5 @@
 .three-img {
-  width: 90vh;
+  width: 100vh;
 }
 
 .three-article {
@@ -7,4 +7,15 @@
   font-size: 17px;
   letter-spacing: 1.73px;
   margin-left: 8%;
+}
+
+.three-discover {
+  position: relative;
+  height: 47vh;
+}
+
+.three-button {
+  position: absolute;
+  right: 5%;
+  top: 95%;
 }

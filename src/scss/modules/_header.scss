@@ -1,0 +1,23 @@
+.header-band {
+  position: relative;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 1.83px;
+  background: black;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 21px 50px;
+  width: 100%;
+  margin-bottom: 44%;
+}
+
+.header-link {
+  position: absolute;
+  right: 44px;
+}
+
+.header-background {
+  position: fixed;
+  z-index: -10000;
+}

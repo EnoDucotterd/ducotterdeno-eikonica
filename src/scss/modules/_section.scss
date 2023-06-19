@@ -28,3 +28,8 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.section-button:hover {
+  scale: 1.2;
+  transition-duration: 0.4;
+}

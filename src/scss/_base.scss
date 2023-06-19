@@ -29,7 +29,6 @@ body {
   font-family: "darkmode-off", sans-serif;
   color: white;
   background-color: black;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -96,6 +95,10 @@ ul {
 
 li {
   margin-bottom: 80px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {

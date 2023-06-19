@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -77,10 +78,12 @@ a {
 
 main {
   background: rgba(92, 92, 92, 0.83);
-  border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(6.4px);
+  scroll-behavior: smooth;
+  font-size: 17px;
+  letter-spacing: 1.73px;
 }
 
 h3 {

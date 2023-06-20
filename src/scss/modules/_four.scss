@@ -10,15 +10,25 @@
 
 .four-img {
   width: 291px;
+  transition: all 0.3s ease;
 }
 
 .four-tuiles {
   position: relative;
   margin: 0 70px;
+  width: fit-content;
+  overflow: hidden;
 }
 
 .four-button {
   position: absolute;
   right: 19px;
   bottom: 23px;
+}
+
+.four-image-first.is-grey,
+.four-image-second.is-grey,
+.four-image-third.is-grey {
+  filter: grayscale(60%);
+  transform: scale(1.5);
 }

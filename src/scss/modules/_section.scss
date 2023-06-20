@@ -27,9 +27,10 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .section-button:hover {
-  scale: 1.2;
-  transition-duration: 0.4;
+  color: black;
+  background: white;
 }

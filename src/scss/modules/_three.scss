@@ -1,5 +1,11 @@
 .three-img {
   width: 100%;
+  transition: all 0.3s ease;
+}
+
+.three-img.is-active {
+  filter: grayscale(50%);
+  transform: scale(1.5);
 }
 
 .three-article {
@@ -12,6 +18,8 @@
   width: 100%;
   max-width: 756px;
   margin-left: 2.5vw;
+  width: fit-content;
+  overflow: hidden;
 }
 
 .three-button {

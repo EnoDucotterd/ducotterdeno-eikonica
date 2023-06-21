@@ -1,20 +1,23 @@
 .five {
   margin-bottom: 0px;
 }
-.five-img {
-  width: 335px;
-  overflow: hidden;
-  transition: all 0.4s ease;
-}
-
 .five-images {
   overflow: hidden;
-  width: 335px;
+  width: fit-content;
   margin-left: 75px;
+}
+
+.five-img {
+  width: 335px;
+  transition: all 0.4s ease;
 }
 
 .five-img:hover {
   transform: scale(1.5);
+}
+
+.five-info {
+  margin: 150px 0 0 65px;
 }
 
 .five-bold {
@@ -27,6 +30,4 @@
   margin-top: 15px;
 }
 
-.five-info {
-  margin: 150px 0 0 65px;
-}
+//ok

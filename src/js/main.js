@@ -12,8 +12,6 @@ var removeClass = function () {
 trigger.addEventListener("mouseenter", addClass);
 trigger.addEventListener("mouseleave", removeClass);
 
-//------
-
 var firstFilter = document.querySelector(".four-image-first");
 var Firsttrigger = document.querySelector(".four-button-first");
 
@@ -28,8 +26,6 @@ var removefirstClass = function () {
 Firsttrigger.addEventListener("mouseenter", addfirstClass);
 Firsttrigger.addEventListener("mouseleave", removefirstClass);
 
-//----
-
 var secondFilter = document.querySelector(".four-image-second");
 var secondtrigger = document.querySelector(".four-button-second");
 
@@ -43,8 +39,6 @@ var removesecondClass = function () {
 
 secondtrigger.addEventListener("mouseenter", addsecondClass);
 secondtrigger.addEventListener("mouseleave", removesecondClass);
-
-//---
 
 var thirdFilter = document.querySelector(".four-image-third");
 var thirdtrigger = document.querySelector(".four-button-third");
